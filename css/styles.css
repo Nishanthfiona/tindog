@@ -1,0 +1,129 @@
+body{
+    font-family: "montserrat";}
+#title{
+    background-color: #ff4c68;
+    color: #fff;}
+h1{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;}
+h2 {
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 700;}
+h3{
+    font-family: 'Montserrat-black', sans-serif;}
+p {
+    color: #8f8f8f;}
+.container-fluid{
+    padding: 3% 15% 7%;}
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;}
+.brand{
+    color: #fff;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;}
+.brand:hover{
+    color: #423f3e;
+    text-decoration: none;}
+.nav-item{
+   padding: 0 18px;}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat";}
+
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;}
+
+/* title image */
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+    position: absolute;}
+/* features-box */
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    z-index: 1;
+    position: relative;}
+.features-box{
+    padding: 4.5%;
+    text-align: center;}
+.features-img{
+    color: #ef8172;
+    margin-bottom: 1rem;}
+.features-img:hover{
+    color: #ff4c68;}
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;}
+.carousel-item {
+    padding: 7% 15%;}
+/* call to action */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5% 15% 1%;}
+.end{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;}
+#footer{
+    background-color: #fff;
+    padding: 5% 15% 5%;
+    text-align: center;}
+.social{
+    margin: 5px 10px 3px;
+    color: #423F3E;}
+
+@media (max-width: 991px) {
+    #title{
+    text-align: center;
+}
+.title-img {
+    position: static;
+    transform: rotate(0);}
+}
